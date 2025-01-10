@@ -11,4 +11,3 @@ openai==1.31.1 # For embeddings
 tiktoken==0.7.0  # For embeddings 
 # install markdown depenendies with: `pip install "unstructured[md]"` after install the requirements file. Leave this line commented out. 
 nltk==3.8.1 # package dependancy
-backoff==2.2.1 # for openai expoential api backoff

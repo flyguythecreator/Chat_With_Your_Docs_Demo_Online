@@ -49,10 +49,4 @@ def main():
     response_text = model.predict(prompt)
 
     # Model response provides source information 
-    sources = [doc.metadata.get("source", None) for doc, _score in results]
-    formatted_response = f"Response: {response_text}\nSources: {sources}"
-    print(formatted_response)
-
-
-if __name__ == "__main__":
-    main()
+    so
